@@ -1,0 +1,17 @@
+.banner-content {
+    padding-top: 128px;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 700px;
+    width: 100%;
+}
+.banner-content h1 {
+    color: #fff;
+    font-size: 70px;
+}
+.banner-content p {
+    font-size: 33px;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    margin-top: 30px;
+}
