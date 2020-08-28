@@ -1,0 +1,31 @@
+.placeorder {
+    float: left;
+    width: 100%;
+}
+.order-left {
+    padding-right: 0px;
+    padding-left: 0px;
+    background: url(../Asset/images/place_order.jpg) no-repeat;
+    background-size: cover;
+    height: 768px;
+}
+.order-left img {
+    width: 100%;
+}
+.order-right {
+    background: #fff;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 206px;
+    padding-left: 58px;
+}
+.order-right h1 {
+    width: 350px;
+    font-weight: 400;
+    padding-bottom: 26px;
+}
+.order-right p {
+    width: 546px;
+    font-size: 29px;
+    font-family: 'Lato', sans-serif;
+}

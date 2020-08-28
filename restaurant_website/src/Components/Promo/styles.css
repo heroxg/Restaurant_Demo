@@ -1,0 +1,20 @@
+.promo-left {
+    background: #fff;
+    height: 776px;
+    padding-top: 196px;
+    padding-left: 114px;
+    padding-right: 46px;
+}
+.promo-left h1 {
+    width: 478px;
+    padding-bottom: 26px;
+}
+.promo-left p {
+    font-size: 26px;
+    width: 100%;
+}
+.promo-right {
+    background: url(../Asset/images/meal.jpg);
+    background-size: cover;
+    height: 776px;
+} 

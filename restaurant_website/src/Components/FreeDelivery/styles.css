@@ -1,0 +1,17 @@
+.delivery {
+    float: left;
+    width: 100%;
+    background: url(../Asset/images/free.jpg) no-repeat;
+    height: 678px;
+    padding-top: 126px;
+    text-align: center;
+}
+.delivery h2 {
+    font-size: 60px;
+    color: #7287ae;
+    padding-bottom: 15px;
+}
+.delivery p {
+    color: #7287ae;
+    font-size: 22px;
+}
