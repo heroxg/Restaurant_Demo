@@ -1,24 +1,24 @@
 import React from 'react';
 import './App.css';
-import Header from './Components/Header'
-import FeaturedMenu from './Components/menu/FeaturedMenu'
-import PlaceOrder from './Components/Discount'
-import Promo from './Components/Promo'
-import MakeOrder from './Components/MakeOrder';
-import FreeDelivery from './Components/FreeDelivery'
-import Testimonial from './Components/Testimonial'
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
+
+import Home from './Pages/Home'
+import MenuPage from './Pages/MenuPage'
+import PromoPage from './Pages/PromoPage'
+import OrderPage from './Pages/OrderPage'
+
 
 function App() {
   return (
-    <div>
-      <Header/>
-      <FeaturedMenu />
-      <PlaceOrder />
-      <Promo />
-      <MakeOrder />
-      <FreeDelivery />
-      <Testimonial />
-    </div>
+      <Router>
+        <div>
+          {/* <Home /> */}
+          <Route exact path="/" component= {Home} />
+          <Route path="/menu" component= {MenuPage} />
+          <Route path="/promo" component= {PromoPage} />
+          <Route path="/order" component= {OrderPage} /> 
+        </div>
+      </Router>
   );
 }
 

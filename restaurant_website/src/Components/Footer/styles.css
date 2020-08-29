@@ -1,0 +1,23 @@
+footer {
+    float: left;
+    width: 100%;
+    background: url(../Asset/images/footer_bg.png)no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-top: 400px;
+    padding-bottom: 50px;
+    color: #fff;
+}
+.footer-link ul li {
+    list-style-type: none;
+}
+.footer-brief h5 {
+    padding-bottom: 15px;
+}
+.footer-link ul li a {
+    color: #fff;
+    text-transform: capitalize;
+}
+.footer-link h6 {
+    padding-bottom: 15px;
+}
