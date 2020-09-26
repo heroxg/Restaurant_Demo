@@ -1,10 +1,10 @@
-*, *:before, *:after {
+/* *, *:before, *:after {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-}
+} */
 
 *, *::before, *::after {
   margin: 0px;
@@ -15,11 +15,15 @@
 }
 body {
   font-family: 'Ubuntu', sans-serif;
-  background: #e3ecc2;
+  background: #e3ecc2 !important;
 }
 
 .main-wrapper {
   max-width: 1180px;
   width: 100%;
   margin: 0 auto;
+}
+
+img {
+  max-width: 100%;
 }

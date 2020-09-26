@@ -9,3 +9,14 @@
 .navbar-expand-lg .navbar-nav {
     margin-top: 10px;
 }
+.scrolled {
+    position: fixed;
+    float: left;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #486c9b;
+}
+.navbar-toggler {
+    background: #fff;
+}

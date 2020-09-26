@@ -2,12 +2,15 @@
     float: left;
     width: 100%;
     background: #e3ecc2;
-    background-size: 100%;
-    margin-top: -180px;
     padding-bottom: 108px;
+    margin-top: -473px;
+    padding-bottom: 108px;
+    padding-top: 150px;
 }
 .sub-heading {
     text-align: center;
+    float: left;
+    width: 100%;
 }
 .sub-heading h2 {
     padding-bottom: 70px;

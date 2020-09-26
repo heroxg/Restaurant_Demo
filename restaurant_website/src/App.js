@@ -14,9 +14,9 @@ function App() {
         <div>
           {/* <Home /> */}
           <Route exact path="/" component= {Home} />
-          <Route path="/menu" component= {MenuPage} />
+          {/* <Route path="/#" component= {MenuPage} />
           <Route path="/promo" component= {PromoPage} />
-          <Route path="/order" component= {OrderPage} /> 
+          <Route path="/order" component= {OrderPage} />  */}
         </div>
       </Router>
   );

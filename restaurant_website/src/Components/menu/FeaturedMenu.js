@@ -13,11 +13,13 @@ class FeaturedMenu extends Component {
                 <div className="sub-heading">
                     <h2>Popular Menu</h2>
                 </div>
-                <div className="row">
-                    {listMenu}
-                    <div className="col-sm-12 see-more-menu">
-                        <a href="#">show more</a>
-                    </div>
+                <div className="container">
+                  <div className="row">
+                      {listMenu}
+                      <div className="col-sm-12 see-more-menu">
+                          <a href="#">show more</a>
+                      </div>
+                  </div>
                 </div>
           </div>
       </div>

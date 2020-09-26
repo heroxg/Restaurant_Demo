@@ -1,12 +1,31 @@
-import React, { Component } from 'react'
+import React,{ useEffect } from 'react'
 import './Nav.css'
 import Logo from './Asset/images/logo2.png'
 import { Link } from 'react-router-dom'
 
 
-class Nav extends Component {
-  render() {
+const Nav =() => {
+  const [scrolled, setScrolled] = React.useState(false);
+
+  const handleScroll = () => {
+    const offset = window.scrollY;
+    if(offset > 200) {
+      setScrolled(true);
+    }else {
+      setScrolled(false);
+    }
+  }
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll)
+  })
+
+  let x = ['mynav'];
+  if(scrolled) {
+    x.push('scrolled');
+  }
     return (
+        <div className={x.join(" ")}>
           <div className="main-wrapper">
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
               <Link to="/" className="navbar-brand"><img src={Logo}  alt="logo"/></Link>
@@ -31,8 +50,7 @@ class Nav extends Component {
             </div>
             </nav>
           </div>
-      
+        </div> 
     )
   }
-}
 export default Nav

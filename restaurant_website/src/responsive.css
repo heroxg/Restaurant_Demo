@@ -1,0 +1,136 @@
+@media screen and (max-width: 990px) {
+    .menu-details {
+        height: 182px !important;
+    }
+}
+@media screen and (max-width: 920px) {
+    .header {
+        height: 958px !important;
+    }
+    .banner-content {
+        padding-top: 72px !important;
+    }
+}
+@media screen and (max-width: 890px) {
+    .banner-content {
+        padding-top: 55px !important;
+    }
+    .banner-content h1 {
+        font-size: 52px !important;
+    }
+    .banner-content p {
+        font-size: 27px;
+        margin: 0px auto;
+    }
+    .navbar-expand-lg .navbar-nav {
+        margin-top: 10px;
+        background: rgb(104 136 177);
+        padding: 10px;
+        position: absolute;
+        width: 100%;
+        left: 0px;
+    }
+}
+@media screen and (max-width: 770px) {
+    .menu-details {
+        height: 230px !important;
+    }
+}
+@media screen and (max-width: 740px) {
+    .header {
+        height: 805px !important;
+    }
+}
+@media screen and (max-width: 700px) {
+    .header {
+        height: 797px !important;
+    }
+    .banner-content p {
+        margin-top: 9px;
+        width: 70%;
+        margin-top: 9px !important;
+    }
+}
+@media screen and (max-width: 630px) {
+    .banner-content h1 {
+        font-size: 34px !important;
+    }
+    .banner-content p {
+        font-size: 20px !important;
+    }
+}
+@media screen and (max-width: 575px) {
+    .featured-menu {
+        margin-bottom: 30px;
+    }
+    .menu-details {
+        height: unset !important;
+    }
+}
+@media screen and (max-width: 530px) {
+    .header {
+        height: 700px !important;
+    }
+}
+@media screen and (max-width: 460px) {
+    .testimonial-sec {
+        padding-top: 42px !important;
+        padding-bottom: 200px !important;
+    }
+    .testimonial-sec p {
+        font-size: 20px;
+    }
+    footer {
+        padding-top: 515px !important;
+    }
+}
+@media screen and (max-width: 440px) {
+    .banner-content h1 {
+        font-size: 26px !important;
+    }
+    .banner-content {
+        padding-top: 15px !important;
+    }
+    .banner-content p {
+        font-size: 15px !important;
+    }
+    .header {
+        height: 643px !important;
+    }
+    .navbar-brand img {
+        width: 223px;
+    }
+}
+@media screen and (max-width: 420px) {
+    .sub-heading h2 {
+        font-size: 32px !important;
+        padding-bottom: 50px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .header {
+        height: 609px !important;
+    }
+    .order-left {
+        background: url(./Components/Asset/images/placeorder-mobile.jpg) no-repeat !important;
+        height: 454px !important;
+    }
+}
+@media screen and (max-width: 390px) {
+    .navbar-brand img {
+        width: 200px;
+    }
+}
+@media screen and (max-width: 350px) {
+    .banner-content h1 {
+        font-size: 20px !important;
+    }
+    .banner-content p {
+        width: 90%;
+        font-size: 13px !important;
+        margin-top: -3px !important;
+    }
+    .header {
+        height: 568px !important;
+    }
+}

@@ -14,7 +14,7 @@ import Footer from './../../Components/Footer'
         <div>
             <Header/>
             <FeaturedMenu />
-            <PlaceOrder />
+            <PlaceOrder /> 
             <Promo />
             <MakeOrder />
             <FreeDelivery />

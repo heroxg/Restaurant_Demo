@@ -17,15 +17,18 @@
     padding-right: 0px;
     padding-left: 0px;
     padding-top: 206px;
-    padding-left: 58px;
+    padding-left: 5%;
+    /* padding-left: 58px; */
 }
 .order-right h1 {
-    width: 350px;
+    /* width: 350px; */
+    width: 63%;
     font-weight: 400;
     padding-bottom: 26px;
 }
 .order-right p {
-    width: 546px;
+    /* width: 546px; */
+    width: 95%;
     font-size: 29px;
     font-family: 'Lato', sans-serif;
 }

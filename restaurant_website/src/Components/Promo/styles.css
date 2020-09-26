@@ -1,12 +1,18 @@
+.promo {
+    float: left;
+    width: 100%;
+}
 .promo-left {
     background: #fff;
     height: 776px;
     padding-top: 196px;
-    padding-left: 114px;
-    padding-right: 46px;
+    /* padding-left: 114px;
+    padding-right: 46px; */
+    padding-left: 7%;
 }
 .promo-left h1 {
-    width: 478px;
+    /* width: 478px; */
+    width: 70%;
     padding-bottom: 26px;
 }
 .promo-left p {
