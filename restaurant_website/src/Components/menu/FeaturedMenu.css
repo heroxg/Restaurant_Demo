@@ -6,6 +6,7 @@
     margin-top: -473px;
     padding-bottom: 108px;
     padding-top: 150px;
+    position: relative;
 }
 .sub-heading {
     text-align: center;
@@ -37,4 +38,12 @@
     font-size: 18px;
     text-decoration: none;
     text-transform: uppercase;
+}
+/* .menu-items {
+    position: relative;
+} */
+.design-dot {
+    position: absolute;
+    right: 40px;
+    bottom: 55px;
 }

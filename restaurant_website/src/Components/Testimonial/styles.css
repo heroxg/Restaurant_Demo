@@ -5,6 +5,7 @@
     text-align: center;
     padding-bottom: 110px;
     margin-bottom: -240px;
+    position: relative;
 }
 .testimonial-sec ul li {
     list-style: none;
@@ -30,4 +31,10 @@
     font-size: 26px;
     font-weight: bold;
     margin-bottom: 30px;
+}
+.design-dot_4 {
+    position: absolute;
+    left: 249px;
+    z-index: 3;
+    bottom: -62px;
 }

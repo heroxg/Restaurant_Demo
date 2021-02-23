@@ -9,6 +9,7 @@
     /* padding-left: 114px;
     padding-right: 46px; */
     padding-left: 7%;
+    position: relative;
 }
 .promo-left h1 {
     /* width: 478px; */
@@ -24,3 +25,7 @@
     background-size: cover;
     height: 776px;
 } 
+.design-dot_2 {
+    position: absolute;
+    top: -59px;
+}
